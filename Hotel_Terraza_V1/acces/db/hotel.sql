@@ -1,0 +1,16 @@
+CREATE DATABASE hotel;
+USE hotel;
+ALTER TABLE clientes
+ADD tipo_documento VARCHAR(20) DEFAULT NULL AFTER apellido;
+CREATE TABLE clientes (
+    codigo INT(50) AUTO_INCREMENT,
+    fechaI VARCHAR(15) DEFAULT NULL,
+    fechaS VARCHAR(15) DEFAULT NULL,
+    nombre VARCHAR(50) DEFAULT NULL,
+    apellido VARCHAR(50) DEFAULT NULL,
+    tipoDocumento VARCHAR(20) DEFAULT NULL,
+    correo VARCHAR(70) DEFAULT NULL,
+    movil VARCHAR(10) DEFAULT NULL,
+    ubicacion VARCHAR(100) DEFAULT NULL,
+    PRIMARY KEY (codigo)
+);

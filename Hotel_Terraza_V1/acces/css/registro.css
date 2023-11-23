@@ -1,0 +1,142 @@
+/* Estilos Generales */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../../imagenes/fondo.jpg');
+  background-size: cover;
+  background-color: rgba(102, 51, 0, 0.5);
+  margin: 0;
+}
+
+.container-form {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #ec0b56;
+  background-image: url('../../imagenes/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 115%;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+/* Estilos para el Formulario de Validación */
+.information {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #b38d72;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.info-childs {
+  width: 100%;
+}
+
+.info-childs h2 {
+  font-size: 2.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.info-childs input {
+  background-color: #4e4e4e;
+  outline: none;
+  border: solid 2px #333;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .3s ease;
+  margin-top: 10px;
+}
+
+/* Estilos para el Formulario de Registro */
+.form-information {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-information h2 {
+  font-size: 2.2rem;
+  color: #b38d72;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la Tabla de Disponibilidad de Habitaciones */
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-container th {
+  background-color: #b38d72;
+  color: white;
+}
+
+.table-container td {
+  background-color: #4e4e4e;
+  color: white;
+}
+
+/* Otros Estilos si es Necesario */
+.form-information fieldset {
+  margin-top: 20px;
+}
+
+.form-information input,
+.form-information select {
+  margin: 10px 0;
+  display: block;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.form-information button {
+  margin: 20px 0;
+  display: block;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ec0b56;
+  color: white;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.form-information button:hover {
+  background-color: #c9004b;
+}
+
+
+
