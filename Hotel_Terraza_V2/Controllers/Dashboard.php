@@ -4,9 +4,9 @@
     {
        public function main_ctlr()
        {
-            require_once("Views/Landing/Modulos/Header.php");
-            require_once("Views/Landing/Paginas/inicio.php");
-            require_once("Views/Landing/Modulos/Footer.php");
+            require_once("Views/Dashboard/Modulos/Header.php");
+            require_once("Views/Dashboard/Paginas/inicio.php");
+            require_once("Views/Dashboard/Modulos/Footer.php");
        } 
     }
 
