@@ -1,8 +1,8 @@
 <?php
 
-    class Dashboard_Ctlr
+    class Dashboard
     {
-       public function main_ctlr()
+       public function main()
        {
             require_once("Views/Dashboard/Modulos/Header.php");
             require_once("Views/Dashboard/Paginas/inicio.php");
