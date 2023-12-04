@@ -3,9 +3,14 @@ body {
     background-color: #f4f4f4;
     margin: 0;
 }
-.imgfondo{
+
+.imgfondo {
     background-image: url('../Imgs/logo_terraza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-position: center; /* Centra la imagen en el cuerpo */
 }
+
 .contenedor {
     max-width: 800px;
     margin: 50px auto;
