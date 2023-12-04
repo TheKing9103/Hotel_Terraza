@@ -44,16 +44,16 @@
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <div class="dropdown-menu-content">
-                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="?c=Dashboard&a=listar">Ver Lista Usuarios</a>
                                     <a class="dropdown-item" href="#">Another action</a>
                                     <a class="dropdown-item" href="#">Something else here</a>
                                 </div>
                             </div>
                         </div>
                         <h4 class="mb-0">
-                            <span class="count">10468</span>
+                            <span class="count">2</span>
                         </h4>
-                        <p class="text-light">Members online</p>
+                        <p class="text-light">Usuarios</p>
 
                         <div class="chart-wrapper px-0" style="height:70px;" height="70">
                             <canvas id="widgetChart1"></canvas>
