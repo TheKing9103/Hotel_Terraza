@@ -11,4 +11,7 @@
   <li class="nav-item">
     <a class="nav-link" href="?c=Landing&a=contacto">Contacto</a>
   </li>
+    <li class="nav-item">
+    <a class="nav-link" href="?c=Landing&a=contacto">Administracion</a>
+  </li>
 </ul>

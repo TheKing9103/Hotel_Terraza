@@ -11,27 +11,12 @@
       <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="#header" class="scrollto">Home</a></li>
-          <li><a href="#about" class="scrollto">About Us</a></li>
-          <li><a href="#why-us" class="scrollto">Why Us</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact" class="scrollto">Contact Us</a></li>
+          <li class="active"><a href="#header" class="scrollto">Inicio</a></li>
+          <li><a href="#about" class="scrollto">Nosotros</a></li>
+          <li><a href="#why-us" class="scrollto">Reserva</a></li>
+
+          <li><a href="#contact" class="scrollto">Contacto</a></li>
+          <li><a href="?c=Dashboard&a=main" class="scrollto">Administracion</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -133,21 +118,21 @@
     <section id="why-us" class="why-us section-bg">
       <div class="container">
 
-        <div class="row">
+        <div class="row ">
       
 <div class="container mt-5">
   <div class="container-fluid"><br><br>
-  <div class="row d-flex justify-content-center">
+  <div class="row d-flex justify-content-center ">
     <div class="card">
       <h1 class="text-center">Consulta La Disponibilidad De Tu Reserva</h1>
     </div>
-    <div class="col col-sm-2"><br><br>
-      <div class="card rounded-5">
+    <div class="col col-sm-10 col-md-6 col-lg-4"><br><br>
+      <div class="card rounded-5 text-center">
         <br>
         <form method="get">
-          <label>Fecha Inicio:</label>
+          <label >Fecha Inicio:</label>
           <input type="date" class="form-control" name="fecha_ini">
-          <br>
+          <br><br>
           <label>Fecha Fin:</label>
           <input type="date" class="form-control" name="fecha_fin">
           <br>
@@ -172,62 +157,67 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Us</h2>
+          <h2>Contacto</h2>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-evenly row-cols-1 ">
+            <div class="col col-sm-1 col-md-12 col-lg-4 ">
+              <div class="container card">
 
-          <div class="col-lg-3 col-md-5 mb-5 mb-md-0">
-            <div class="info">
-              <div class="address">
-                <i class="bx bx-map"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1988.605028953634!2d-75.74686537531205!3d4.556203618125798!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e385fba4c4538a7%3A0x41fefad6ce97d64e!2sCasa%20Campestre%20Terraza%20Del%20Palmar!5e0!3m2!1ses!2sco!4v1701823209752!5m2!1ses!2sco" width="auto" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-              <div class="email">
-                <i class="bx bx-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bx bx-phone-call"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
 
           </div>
 
-          <div class="col-lg-5 col-md-7">
+
+          <div class="col col-sm-12 col-md-12 col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bx bx-map"></i>
+                <p><a href="https://www.google.com/maps/place/Casa+Campestre+Terraza+Del+Palmar/@4.5561592,-75.7461496,21z/data=!4m9!3m8!1s0x8e385fba4c4538a7:0x41fefad6ce97d64e!5m2!4m1!1i2!8m2!3d4.5561681!4d-75.7460165!16s%2Fg%2F11bxg2tznx?hl=es&entry=ttu">Armenia-Montenegro, Montenegro, Quindío</a><br></p>
+              </div>
+
+              <div class="email">
+                <i class="bx bx-envelope"></i>
+                <p>frank_rey@soy.sena.edu.co</p>
+              </div>
+
+              <div class="phone">
+                <i class="bx bx-phone-call"></i>
+                <p>+57 3195198167</p>
+              </div>
+            </div>
+
+            <div class="social-links justify-content-center">
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col col-sm-1 col-md-12 col-lg-4">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombres" required>
               </div>
               <div class="form-group mt-3">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Correo" required>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Contenido Del Asunto" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Solicitar Cotizacion</button></div>
             </form>
           </div>
-
-        </div>
 
       </div>
     </section><!-- End Contact Us Section -->
