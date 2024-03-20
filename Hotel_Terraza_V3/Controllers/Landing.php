@@ -2,11 +2,19 @@
 
     class Landing
     {
+
         public function main()
         {
             require_once("Views/Landing/Modulos/Header.php");
             require_once("Views/Landing/Paginas/inicio.php");
             require_once("Views/Landing/Modulos/Footer.php");
+            # aca vamos a validar la disponibilidad 
+            
+            #Redireccionamos depues de llenar el formulario 
+            if (isset($_POST['fecha_ini'])) {
+                header("Location:?c=Reserva&a=registro");
+            }           
+
         }
 
          public function nosotros()

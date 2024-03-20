@@ -129,7 +129,7 @@
     <div class="col col-sm-10 col-md-6 col-lg-4"><br><br>
       <div class="card rounded-5 text-center">
         <br>
-        <form method="get">
+        <form method="POST">
           <label >Fecha Inicio:</label>
           <input type="date" class="form-control" name="fecha_ini">
           <br><br>
@@ -137,7 +137,7 @@
           <input type="date" class="form-control" name="fecha_fin">
           <br>
           <div class="container d-flex justify-content-center">
-            <a href="../Controllers/reserva.php"class="btn btn-outline-dark">Consultar</a>
+            <button type="submit" class="btn btn-sm-success">Consultar Diponibilidad</button>
           </div>
         </form>
         <br>

@@ -2,8 +2,7 @@
 <link href="Assets/Css/Fondo_Dashboard.css" rel="stylesheet">
 <div class="container-fluid"><br><br>
 	<div class="row d-flex justify-content-center">
-		<div class="card">
-		</div>
+    
 		<div class="col col-sm-2"><br><br>
 			<div class="card rounded-5">
 				<br>
